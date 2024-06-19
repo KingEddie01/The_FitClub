@@ -1,0 +1,26 @@
+.category{
+  display:flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  background: gray;
+}
+.category:hover{
+  background: rgb(255, 115, 0);
+  cursor: pointer;
+}
+
+.category>:nth-child(1){
+  width: 2rem;
+  height: 2rem;fill: white;
+}
+.category>:nth-child(2){
+  font-size: 1rem;
+  font-weight: bold;
+}
+.category>:nth-child(3){
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+

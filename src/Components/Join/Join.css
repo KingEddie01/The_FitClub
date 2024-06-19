@@ -1,0 +1,9 @@
+.emailContainer>input{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: rgba(211, 211, 211, 0.652);
+}
+::placeholder{
+  color: rgb(220, 216, 216);
+}

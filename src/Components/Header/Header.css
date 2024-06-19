@@ -1,0 +1,9 @@
+.header-list>li:hover{
+  cursor: pointer;
+  color: orange;
+  
+}
+.header-list>li{
+  font-size: 1.1rem;
+  font-weight: bold;
+}

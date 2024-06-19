@@ -1,0 +1,60 @@
+.plan{
+  display:flex;
+  flex-direction: column;  
+  color: white;  
+  gap: 2rem;
+  padding: 1.5rem;
+  width: 15rem;
+  background-color: dimgray;
+}
+
+.plan:nth-child(2){
+  background-color: rgb(255, 111, 0);
+  transform: scale(1.1);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.plan>svg{
+  fill: orange;
+  width: 2rem;
+  height: 2rem;
+}
+.plan:nth-child(1){
+  font-weight: bold;
+}
+.plan:nth-child(3){
+  font-weight: bold;
+}
+.plan:nth-child(5){
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.feature{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+.feature>img{
+  width: 1rem;
+}
+
+.plan:nth-child(2)>button{
+  color:orange;
+}
+.plan:nth-child(2)>svg{
+  fill: white;
+}
+.plans-blur1{
+  width: 35rem;
+  height: 27rem;
+  top: 6rem;
+  left: 20rem;
+}
+.plans-blur2{
+  width: 32rem;
+  height: 23rem;
+  top: 10rem;
+  right: 20rem;
+}
